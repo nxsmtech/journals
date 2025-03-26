@@ -24,6 +24,12 @@ return [
                 'package_assets_directory' => 'src/Resources/assets',
             ],
         ],
+
+        'minimalist' => [
+            'name' => 'Minimalist',
+            'assets_path' => 'public/themes/minimalist/assets',
+            'views_path' => 'packages/Journals/MinimalistTheme/src/Resources/views',
+        ],
     ],
 
     /*

@@ -230,13 +230,15 @@ return [
         Webkul\Rule\Providers\RuleServiceProvider::class,
         Webkul\Sales\Providers\SalesServiceProvider::class,
         Webkul\Shipping\Providers\ShippingServiceProvider::class,
-        Webkul\Shop\Providers\ShopServiceProvider::class,
+//        Webkul\Shop\Providers\ShopServiceProvider::class,
         Webkul\Sitemap\Providers\SitemapServiceProvider::class,
         Webkul\SocialLogin\Providers\SocialLoginServiceProvider::class,
         Webkul\SocialShare\Providers\SocialShareServiceProvider::class,
         Webkul\Tax\Providers\TaxServiceProvider::class,
         Webkul\Theme\Providers\ThemeServiceProvider::class,
         Webkul\User\Providers\UserServiceProvider::class,
+
+        Journals\MinimalistTheme\MinimalistThemeServiceProvider::class,
     ])->toArray(),
 
     /*
